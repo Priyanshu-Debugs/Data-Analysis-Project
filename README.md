@@ -3,10 +3,13 @@
 A collection of comprehensive data analysis projects demonstrating exploratory data analysis, visualization, and business insights extraction using Python.
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=python" height="30" alt="Python"/>
-  <img src="https://skillicons.dev/icons?i=jupyter" height="30" alt="Jupyter"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="30" alt="Pandas"/>
-  <img src="https://img.shields.io/badge/License-Open%20Source-brightgreen" alt="License"/>
+  <img src="https://skillicons.dev/icons?i=python" width="48 height="48" alt="Python"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="48" height="48" alt="NumPy"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" width="48 height="48" alt="Jupyter"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="48 height="48" alt="Pandas"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" width="48" height="48" alt="Matplotlib"/>
+  <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" width="48" height="48" alt="Seaborn"/>
+  
 </p>
 
 ## 🗂️ Projects Overview
