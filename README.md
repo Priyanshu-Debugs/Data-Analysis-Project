@@ -2,10 +2,12 @@
 
 A collection of comprehensive data analysis projects demonstrating exploratory data analysis, visualization, and business insights extraction using Python.
 
-![Python](https://img.shields.io/badge/Python-3.x-blue? logo=python&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green?logo=pandas&logoColor=white)
-![License](https://img.shields.io/badge/License-Open%20Source-brightgreen)
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=python" height="30" alt="Python"/>
+  <img src="https://skillicons.dev/icons?i=jupyter" height="30" alt="Jupyter"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="30" alt="Pandas"/>
+  <img src="https://img.shields.io/badge/License-Open%20Source-brightgreen" alt="License"/>
+</p>
 
 ## 🗂️ Projects Overview
 
@@ -24,8 +26,8 @@ A comprehensive analysis of bank loan data to understand lending patterns, risk 
 ### 📁 Project Structure
 ```
 Bank-Loan-Analysis/
-├── bank_loan_analysis. ipynb          # Main analysis notebook
-├── financial_loan. xlsx               # Dataset (6+ MB)
+├── bank_loan_analysis.ipynb          # Main analysis notebook
+├── financial_loan.xlsx               # Dataset (6+ MB)
 ├── Problem Statement (Finance Domain).pptx  # Project requirements
 └── README.md                         # Project documentation
 ```
@@ -53,7 +55,7 @@ A detailed analysis of Blinkit's grocery delivery operations, examining sales pa
 ```
 Blinkit-Sales-Analysis/
 ├── data_analysis_blinkit.ipynb       # Main analysis notebook
-├── blinkit_data. csv                  # Dataset (8,523 records)
+├── blinkit_data.csv                  # Dataset (8,523 records)
 ├── Blinkit Analysis Requirement.pptx # Project requirements
 └── README.md                         # Detailed project documentation
 ```
@@ -86,13 +88,20 @@ Blinkit-Sales-Analysis/
 
 ## 🛠️ Tech Stack
 
-<p align="left">
-<img src="https://img.shields.io/badge/Python-3776AB? style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-<img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter"/>
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
-<img src="https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=matplotlib&logoColor=white" alt="Matplotlib"/>
-<img src="https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logoColor=white" alt="Seaborn"/>
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,anaconda" alt="Tech Stack"/>
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" height="50" alt="Jupyter"/>
+  <img width="15"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg" height="50" alt="Pandas"/>
+  <img width="15"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original-wordmark.svg" height="50" alt="NumPy"/>
+  <img width="15"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" height="50" alt="Matplotlib"/>
 </p>
 
 ---
@@ -111,7 +120,9 @@ Blinkit-Sales-Analysis/
 
 **Priyanshu**
 
-[![GitHub](https://img.shields.io/badge/GitHub-@Priyanshu--Debugs-181717?style=flat&logo=github)](https://github.com/Priyanshu-Debugs)
+<a href="https://github.com/Priyanshu-Debugs">
+  <img src="https://skillicons.dev/icons?i=github" height="30" alt="GitHub"/>
+</a>
 
 <p align="center">
   <i>Happy Analyzing! 📊</i>
