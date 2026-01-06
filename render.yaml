@@ -1,0 +1,16 @@
+# Render Blueprint - Auto-configuration for deployment
+# https://render.com/docs/blueprint-spec
+
+services:
+  - type: web
+    name: data-analysis-dashboard
+    env: python
+    region: oregon
+    plan: free
+    branch: main
+    rootDir: Dashboard
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:server
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.4

@@ -23,6 +23,9 @@ app = dash.Dash(
 
 app.title = "Data Analysis Dashboard"
 
+# Expose server for Gunicorn (required for deployment)
+server = app.server
+
 # Custom CSS for dropdown styling
 app.index_string = '''
 <!DOCTYPE html>
@@ -130,10 +133,30 @@ app.index_string = '''
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 BASE_DIR = os.path.dirname(SCRIPT_DIR)
 
+# For Render deployment, check if running locally or on server
+def get_data_path(folder, filename):
+    """Get the correct data path for both local and deployed environments"""
+    # First try: Look in the parent directory (local development)
+    local_path = os.path.join(BASE_DIR, folder, filename)
+    if os.path.exists(local_path):
+        return local_path
+    
+    # Second try: Look in the data folder within Dashboard (deployment)
+    deploy_path = os.path.join(SCRIPT_DIR, "data", filename)
+    if os.path.exists(deploy_path):
+        return deploy_path
+    
+    # Third try: Look in current directory's parent (Render)
+    render_path = os.path.join(os.getcwd(), folder, filename)
+    if os.path.exists(render_path):
+        return render_path
+    
+    return local_path  # Return local path as fallback
+
 def load_bank_loan_data():
     """Load and preprocess bank loan data"""
     try:
-        file_path = os.path.join(BASE_DIR, "Bank-Loan-Analysis", "financial_loan.xlsx")
+        file_path = get_data_path("Bank-Loan-Analysis", "financial_loan.xlsx")
         df = pd.read_excel(file_path)
         df['issue_date'] = pd.to_datetime(df['issue_date'])
         df['month_name'] = df['issue_date'].dt.strftime('%b %Y')
@@ -146,7 +169,7 @@ def load_bank_loan_data():
 def load_blinkit_data():
     """Load and preprocess Blinkit data"""
     try:
-        file_path = os.path.join(BASE_DIR, "Blinkit-Sales-Analysis", "blinkit_data.csv")
+        file_path = get_data_path("Blinkit-Sales-Analysis", "blinkit_data.csv")
         df = pd.read_csv(file_path)
         # Clean Item Fat Content
         df['Item Fat Content'] = df['Item Fat Content'].replace({
