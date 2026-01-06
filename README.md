@@ -319,13 +319,6 @@ Blinkit-Sales-Analysis/
 **Priyanshu**
 <<<<<<< HEAD
 - GitHub: [@Priyanshu-Debugs](https://github.com/Priyanshu-Debugs)
-=======
-
 <a href="https://github.com/Priyanshu-Debugs">
-  <img src="https://skillicons.dev/icons?i=github" height="30" alt="GitHub"/>
+  <img src="https://skillicons.dev/icons?i=github" width="48" height="48" alt="GitHub"/>
 </a>
-
-<p align="center">
-  <i>Happy Analyzing! 📊</i>
-</p>
->>>>>>> 9cceaf457c65d1e84cea3481270b535c68aaa5fc
