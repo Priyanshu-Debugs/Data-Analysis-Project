@@ -27,7 +27,6 @@ Data-Analysis-Project/
 │   └── README.md
 └── README.md                     # This file
 ```
-=======
 A collection of comprehensive data analysis projects demonstrating exploratory data analysis, visualization, and business insights extraction using Python.
 
 <p align="left">
@@ -46,13 +45,11 @@ A collection of comprehensive data analysis projects demonstrating exploratory d
 |---------|--------|--------------|--------|
 | [Bank Loan Analysis](#-bank-loan-analysis) | Finance | 6+ MB | ✅ Complete |
 | [Blinkit Sales Analysis](#-blinkit-sales-analysis) | Retail/E-commerce | 8,523 records | ✅ Complete |
->>>>>>> 9cceaf457c65d1e84cea3481270b535c68aaa5fc
 
 ---
 
 ## 🏦 Bank Loan Analysis
 
-<<<<<<< HEAD
 Comprehensive analysis of bank loan data to identify trends, assess loan performance, and derive actionable business insights.
 
 ### Key Metrics (KPIs)
@@ -97,13 +94,11 @@ Bank-Loan-Analysis/
 - Pandas & NumPy
 - Matplotlib & Seaborn
 - Jupyter Notebook
->>>>>>> 9cceaf457c65d1e84cea3481270b535c68aaa5fc
-
+  
 ---
 
 ## 🛒 Blinkit Sales Analysis
 
-<<<<<<< HEAD
 In-depth analysis of Blinkit (grocery delivery) sales data to understand sales patterns, outlet performance, and product insights.
 
 ### Key Metrics (KPIs)
@@ -309,14 +304,12 @@ Blinkit-Sales-Analysis/
 - ✅ **Data Visualization** - Creating insightful charts and graphs
 - ✅ **Business Intelligence** - Extracting actionable insights from data
 - ✅ **Domain Knowledge** - Finance and Retail/E-commerce sectors
->>>>>>> 9cceaf457c65d1e84cea3481270b535c68aaa5fc
 
 ---
 
 ## 👤 Author
 
 **Priyanshu**
-<<<<<<< HEAD
 - GitHub: [@Priyanshu-Debugs](https://github.com/Priyanshu-Debugs)
 <a href="https://github.com/Priyanshu-Debugs">
   <img src="https://skillicons.dev/icons?i=github" width="48" height="48" alt="GitHub"/>
